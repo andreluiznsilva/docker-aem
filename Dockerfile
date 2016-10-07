@@ -19,6 +19,6 @@ RUN curl -L -o AEM_6.0_Quickstart.jar https://www.dropbox.com/s/5d6avsc5rvtmb8x/
 
 EXPOSE 4502 4503
 
-COPY entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
