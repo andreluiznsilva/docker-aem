@@ -19,6 +19,6 @@ RUN curl -L -o cq-quickstart-beta-6.1.0.jar https://www.dropbox.com/s/xghxxherv5
 
 EXPOSE 4502 4503
 
-COPY entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
